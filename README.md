@@ -31,7 +31,9 @@ The full design, with the failures that shaped it, is in [blog-pipeline/README-P
 
 ## The mistake that shaped it
 
-A post said Oregon "adds this sentence" to a national rule. Oregon had added two words, "or deck". Oregon publishes its changes to the national electrical code as a PDF table and marks what it added with underlining. The agent had read the PDF as plain text, which drops the underlining. Now `render_table1e.sh` turns the page into an image and the agent reads the image. The claim checker makes its own image instead of trusting the researcher's quote.
+Oregon publishes its changes to the national electrical code as a PDF table and underlines the words it added. An early version of this workflow read that PDF as plain text, which has no underlining. So the first draft of one post claimed Oregon had added a whole sentence to a hot tub rule. Oregon had added two words, "or deck". The mistake only showed up when the page itself was checked.
+
+Two agents reading the same text would have made the same mistake, so the fix was to change what they read. Now `render_table1e.sh` turns the page into an image and the agent reads the image. The claim checker makes its own image instead of trusting the researcher's quote.
 
 ## Who did what
 

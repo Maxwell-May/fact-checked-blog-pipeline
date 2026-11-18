@@ -8,7 +8,7 @@ A multi-agent, evidence-gated content system built on Claude Code for a licensed
 2. **Separation of duties.** The agent that researches does not verify. The agent that writes does not audit. Adversarial checking is a role, not a step in the writer's checklist.
 3. **Machines check what machines can check.** Encoding, banned phrases, meta lengths, schema validity, FAQ parity, link counts, word count: scripted, deterministic, blocking.
 4. **Graceful degradation.** Ahrefs API when the plan allows; Search Console export when it does not. The output names its data source and window.
-5. **Domain rules are data, not vibes.** Oregon amends the NEC. The pipeline reads the amendment table as a rendered page because text extraction loses the underline that marks what changed. That single rule fixed a live misattribution.
+5. **Domain rules are data, not vibes.** Oregon amends the NEC. The pipeline reads the amendment table as a rendered page because text extraction loses the underline that marks what changed. That single rule came from a misattribution in a delivered draft.
 
 ## Stages
 

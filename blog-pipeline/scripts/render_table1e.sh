@@ -1,7 +1,7 @@
 #!/bin/bash
 # Render the Oregon OESC Table 1-E page that mentions a given NEC section as a PNG so the
 # underline (Oregon added) and strikethrough (Oregon deleted) marks can be READ as an image.
-# Text extraction strips both marks and has produced a published misattribution.
+# Text extraction strips both marks and has produced a misattribution in a delivered draft.
 #
 # Usage:  render_table1e.sh 680.42        -> prints PNG path(s); then Read the image
 #         render_table1e.sh 210.12 --all  -> every page mentioning the section

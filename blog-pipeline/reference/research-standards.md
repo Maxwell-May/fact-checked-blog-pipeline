@@ -12,7 +12,7 @@ Facts here carry the date they were last verified. Anything older than 90 days g
 
 Oregon does not adopt the NEC wholesale. Table 1-E lists every amendment. Language not in the table is unamended.
 
-**Read the table as a page image, never as extracted text.** Oregon marks additions with underline and deletions with strikethrough. `pdftotext` strips both, so the text dump shows the amended section but cannot tell you which words Oregon changed. That produced a published claim that "Oregon adds this sentence" when Oregon added two words to an NEC sentence. Use `scripts/render_table1e.sh <section>` which renders the matching page to PNG and prints the file path; then Read the image.
+**Read the table as a page image, never as extracted text.** Oregon marks additions with underline and deletions with strikethrough. `pdftotext` strips both, so the text dump shows the amended section but cannot tell you which words Oregon changed. That produced a delivered draft claiming "Oregon adds this sentence" when Oregon added two words to an NEC sentence. Use `scripts/render_table1e.sh <section>` which renders the matching page to PNG and prints the file path; then Read the image.
 
 Current table: **2026 OESC Table 1-E, effective Oct 1, 2026**, based on the 2026 NEC (verified on oregon.gov/bcd, Oct 11, 2026). URL: https://www.oregon.gov/bcd/codes-stand/Documents/26oesc-table1-E.pdf. Superseded: 2023 OESC table (23oesc-table1-E.pdf). Under OAR 918-305-0020 a job permitted before Oct 1, 2026 may still be under the 2023 OESC.
 
